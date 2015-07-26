@@ -14,6 +14,7 @@
 
 #import "SRCommon.h"
 #import "SRKeyCodeTransformer.h"
+#import "tgmath.h"
 
 #include <IOKit/hidsystem/IOLLEvent.h>
 
@@ -215,11 +216,7 @@ NSString *SRCharacterForKeyCodeAndCocoaFlags(NSInteger keyCode, NSUInteger cocoa
 #define CG_M_PI (CGFloat)M_PI
 #define CG_M_PI_2 (CGFloat)M_PI_2
 
-#ifdef __LP64__
 #define CGSin(x) sin(x)
-#else
-#define CGSin(x) sinf(x)
-#endif
 
 // From: http://developer.apple.com/samplecode/AnimatedSlider/ as "easeFunction"
 CGFloat SRAnimationEaseInOut(CGFloat t) {
