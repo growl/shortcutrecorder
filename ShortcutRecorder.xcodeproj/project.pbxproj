@@ -260,7 +260,7 @@
 				74C367110A246B4900B69171 /* SRCommon.m */,
 			);
 			name = Framework;
-			path = Source;
+			path = Framework/Source;
 			sourceTree = "<group>";
 		};
 		0B8E29FF09CDBADE0085E9ED /* Demo */ = {
@@ -674,6 +674,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
+				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "-Wall";
 				WARNING_LDFLAGS = "";
 			};
@@ -829,6 +830,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
+				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "-Wall";
 				WARNING_LDFLAGS = "";
 			};
@@ -856,6 +858,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
+				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "-Wall";
 				WARNING_LDFLAGS = "";
 			};
